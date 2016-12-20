@@ -8,7 +8,7 @@ subtitle: Ini subjudul
 description: Ini desktripsi
 author: Diky Arga
 language: id
-timezone: Asia\Jakarta
+timezone: Asia/Jakarta
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
