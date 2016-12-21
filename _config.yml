@@ -14,7 +14,7 @@ timezone: Asia/Jakarta
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://dikyarga.github.io/dikyarga.com
 root: /dikyarga.com/
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -76,3 +76,7 @@ deploy:
   email: dikyarga.id@gmail.com
   extend_dirs: [extend directory]
   ignore_hidden: false # default is true
+admin:
+  username: dikyarga
+  password_hash: $2a$06$9I1SHvnKHB6I3HUa8KcT3u3fBED25jvzb/I1/aw0r8Nx0AAYQYFK2
+  secret: secret123
